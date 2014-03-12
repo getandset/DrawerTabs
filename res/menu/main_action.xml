@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:sliding="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+          android:title="@string/search"
+          android:icon="@drawable/ic_action_search"
+          sliding:showAsAction="ifRoom|collapseActionView"
+          sliding:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/share"
+          android:title="@string/share"
+          android:icon="@drawable/ic_action_share"
+          sliding:showAsAction="ifRoom"
+          sliding:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item android:id="@+id/favorite"
+          android:title="@string/favorite"
+          android:icon="@drawable/ic_action_favorite"
+          sliding:showAsAction="ifRoom"/>
+
+</menu>

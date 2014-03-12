@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">slidingPager</string>
+
+    <string name="search">搜索</string>
+    <string name="favorite">收藏</string>
+    <string name="share">分享</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="drawer_items">
+        <item>首页</item>
+        <item>Working</item>
+        <item>Important</item>
+    </string-array>
+</resources>
